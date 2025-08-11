@@ -12,12 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "tsx": "^4.20.3"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
     "@types/ws": "^8.18.1",
-    "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   }
 }
