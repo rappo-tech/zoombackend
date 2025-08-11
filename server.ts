@@ -5,6 +5,7 @@ import { WebSocketServer, WebSocket } from "ws";
 /**
  * Types
  */
+
 type SignalType =
   | "join"
   | "offer"
