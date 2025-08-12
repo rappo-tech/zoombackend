@@ -37,7 +37,7 @@ interface ExtendedWebSocket extends WebSocket {
 /**
  * Config
  */
-const PORT = Number(process.env.PORT || 8080);
+const PORT = Number(process.env.PORT);
 const RATE_LIMIT_WINDOW_MS = 1000;
 const RATE_LIMIT_MAX_MSGS = 30;
 const PING_INTERVAL_MS = 30000;
@@ -197,7 +197,7 @@ const pingInterval = setInterval(() => {
  * Start server
  */
 server.listen(PORT, () => {
-  console.log(`HTTP+WebSocket signaling server running on port ${PORT}`);
+  console.log(` after cahnging----HTTP+WebSocket signaling server running on port ${PORT}`);
 });
 
 /**
